@@ -2,6 +2,7 @@ body {
     background-color: white;
     padding:0;
     margin:1px 0 0 0;
+    zoom: 72%
 
 }
 
@@ -10,4 +11,29 @@ h2 {
     font-family: Arial;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+      background-color: black;
+      color: white;
+  }
+  button.choice {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+      background-color: white;
+      border-color: black;
+      color: black;
+  }
+  
 

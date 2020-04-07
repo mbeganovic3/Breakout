@@ -13,6 +13,8 @@ window.onload = () => {
     addHoldKeyListener('ArrowLeft');
     addHoldKeyListener('ArrowRight');
     addEventListener('mousedown', mouseClickHandle);
+    document.getElementById("top").addEventListener("click", togglePosition);
+    document.getElementById("bottom").addEventListener("click", choosePosition);
     //debug 
     // addEventListener('keydown', (evt) => {
     //    if(evt.key == 'n'){
