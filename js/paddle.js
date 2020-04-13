@@ -432,11 +432,12 @@ const mainGame = () => {
         // colorText('Score : ' + score ,20,30,"white",'16px Arial');
         colorText('Level : ' + (level + 1), canvas.width / 2, 30, "white", '16px Arial', 'center');
     } else {
-        // colorRect(0, 0, canvas.width, canvas.height,BRICK_COLOR);
-        ctx.drawImage(skyPic, 0, 0);
-        colorText(status, canvas.width / 2, canvas.height / 3, "white", '60px Arial', 'center');
-        // colorText("Final Score : " + score,canvas.width/2, canvas.height/2 - 50,"white",'25px Arial','center');
-        colorText("(Click) to play again", canvas.width / 2, canvas.height / 2, "white", '20px Arial', 'center');
+        // // colorRect(0, 0, canvas.width, canvas.height,BRICK_COLOR);
+        // ctx.drawImage(skyPic, 0, 0);
+        // colorText(status, canvas.width / 2, canvas.height / 3, "white", '60px Arial', 'center');
+        // // colorText("Final Score : " + score,canvas.width/2, canvas.height/2 - 50,"white",'25px Arial','center');
+        // colorText("(Click) to play again", canvas.width / 2, canvas.height / 2, "white", '20px Arial', 'center');
+        gameOverReset();
     }
 
 
