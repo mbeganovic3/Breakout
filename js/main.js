@@ -10,6 +10,7 @@ let score = 0;
 
 
 window.onload = () => {
+    alert("The classic Breakout game but the ball freezes before reaching the player's paddle. You can then toggle between three choices of where to place the paddle using the space bar, and choose with the enter key.")
     addHoldKeyListener('ArrowLeft');
     addHoldKeyListener('ArrowRight');
     addEventListener('mousedown', mouseClickHandle);
