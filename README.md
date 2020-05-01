@@ -1,4 +1,4 @@
-# Breakout
+# Switch Accessible Breakout
 
 <a href="https://mbeganovic3.github.io/Breakout/">Play game</a>
 
