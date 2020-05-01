@@ -12,4 +12,6 @@ You win when there are no more blocks to destroy.
 
 You have maximum of three lives, you lose a life when you let the ball fall off the screen and lose the game when you lose all lives.
 
+Start of code credit to: https://github.com/igameproject/Breakout
+
 ![how-to-play](images/how-to-play.jpg)
